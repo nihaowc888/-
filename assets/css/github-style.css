@@ -1,0 +1,9 @@
+.commit-animation {
+  animation: git-commit 1.5s ease-in-out;
+  background: linear-gradient(90deg, #2ea44f 0%, #22863a 100%);
+}
+
+@keyframes git-commit {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
